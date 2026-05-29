@@ -8,7 +8,7 @@ The source code is organized properly so it can be used easily in both **Android
 
 # Project Files Overview
 
-### `[MainActivity.java]()`
+### `[MainActivity.java](https://github.com/mmz197/Android-RecyclerView-CardView/blob/main/MainActivity.java)`
   Handles the initialization of the RecyclerView, prepares the movie data list, and connects the adapter with the layout manager.
 
 ### `[Movie.java]()`
