@@ -8,40 +8,32 @@ The source code is organized properly so it can be used easily in both **Android
 
 # Project Files Overview
 
-### `MainActivity.java`
+### `[MainActivity.java]()`
+  Handles the initialization of the RecyclerView, prepares the movie data list, and connects the adapter with the layout manager.
 
-Handles the initialization of the RecyclerView, prepares the movie data list, and connects the adapter with the layout manager.
+### `[Movie.java]()`
+  A simple model class used to define movie objects and store item information.
 
-### `Movie.java`
+### `[MovieAdapter.java]()`
+  Works as the bridge between the dataset and RecyclerView. It uses the ViewHolder pattern for smooth scrolling and better performance.
 
-A simple model class used to define movie objects and store item information.
+### `[activity_main.xml]()`
+  Main layout file that contains the RecyclerView component.
 
-### `MovieAdapter.java`
+### `[item_card_layout.xml]()`
+  Custom CardView layout used to design each movie item with rounded corners, spacing, and elevation effects.
 
-Works as the bridge between the dataset and RecyclerView. It uses the ViewHolder pattern for smooth scrolling and better performance.
-
-### `activity_main.xml`
-
-Main layout file that contains the RecyclerView component.
-
-### `item_card_layout.xml`
-
-Custom CardView layout used to design each movie item with rounded corners, spacing, and elevation effects.
-
-### `build.gradle`
-
-Contains all required dependencies and Gradle configurations for RecyclerView and CardView support.
+### `[build.gradle]()`
+  Contains all required dependencies and Gradle configurations for RecyclerView and CardView support.
 
 ---
 
 # Android UI Components Used
 
-## RecyclerView
-
+## RecyclerView :
 RecyclerView is used to efficiently display large lists by recycling item views. It improves app performance and provides smooth scrolling behavior.
 
-## CardView
-
+## CardView :
 CardView gives each list item a modern Material Design appearance using elevation, shadows, and rounded corners.
 
 ---
