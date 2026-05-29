@@ -4,12 +4,12 @@ This directory contains the accurate source files for the RecyclerView and CardV
 You can easily utilize this source code in your local Android Studio workspace or copy it into online android compilers or sandbox engines for verification and report screenshots.
 
 ## Project Structure
-- [MainActivity.java]() : Handles initialization of RecyclerView container, layouts, and data.
-- [FoodItem.java]() : Represents the Model schema representing item schemas.
-- [FoodAdapter.java]() : Adapter which connects list datasets to CardView components.
-- [activity_main.xml]() : Layout housing the RecyclerView node.
-- [item_card_layout.xml]() : Layout design containing the CardView structure.
-- [build.gradle]() : Configured build structure with complete dependencies included.
+- [MainActivity.java](https://github.com/mmz197/Android-RecyclerView-CardView/blob/main/MainActivity.java) : Handles initialization of RecyclerView container, layouts, and data.
+- [FoodItem.java](https://github.com/mmz197/Android-RecyclerView-CardView/blob/main/FoodItem.java) : Represents the Model schema representing item schemas.
+- [FoodAdapter.java](https://github.com/mmz197/Android-RecyclerView-CardView/blob/main/FoodAdapter.java) : Adapter which connects list datasets to CardView components.
+- [activity_main.xml](https://github.com/mmz197/Android-RecyclerView-CardView/blob/main/activity_main.xml) : Layout housing the RecyclerView node.
+- [item_card_layout.xml](https://github.com/mmz197/Android-RecyclerView-CardView/blob/main/item_card_layout.xml) : Layout design containing the CardView structure.
+- [build.gradle](https://github.com/mmz197/Android-RecyclerView-CardView/blob/main/build.gradle) : Configured build structure with complete dependencies included.
 
 ## Core Android UI Components Applied
 1. **RecyclerView**: Used to render scrolled lists optimally using the ViewHolder pattern, recycling visual cells to preserve smartphone CPU & RAM resources.
